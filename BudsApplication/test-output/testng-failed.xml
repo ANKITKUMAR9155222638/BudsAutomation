@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AdminPortal.NavigationToUserManagement">
+      <class name="BudsLogin.Login_Competent_Authority">
         <methods>
-          <include name="setUp"/>
-          <include name="testNavigationToUserManagement"/>
-          <include name="tearDown"/>
+          <include name="loginCompetentAuthority"/>
         </methods>
-      </class> <!-- AdminPortal.NavigationToUserManagement -->
+      </class> <!-- BudsLogin.Login_Competent_Authority -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

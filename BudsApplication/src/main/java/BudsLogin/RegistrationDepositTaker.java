@@ -1,4 +1,4 @@
-package BudsPortal;
+package BudsLogin;
 
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;

@@ -12,7 +12,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class NavigatingToCMS {
+public class NavigatingtoCMS {
 
     public static void main(String[] args) throws IOException, InterruptedException {
         // Initialize WebDriver and maximize the window
