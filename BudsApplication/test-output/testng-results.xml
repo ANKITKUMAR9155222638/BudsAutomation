@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-04T11:43:27 IST" name="Suite" finished-at="2024-07-04T11:45:09 IST" duration-ms="102097">
+  <suite started-at="2024-07-04T14:26:52 IST" name="Default suite" finished-at="2024-07-04T14:27:30 IST" duration-ms="38689">
     <groups>
     </groups>
-    <test started-at="2024-07-04T11:43:27 IST" name="TestRunner3" finished-at="2024-07-04T11:45:01 IST" duration-ms="94529">
-      <class name="BudsLogin.Login_DesignatedCourt">
-        <test-method signature="LoginDesignatedCourt()[pri:0, instance:BudsLogin.Login_DesignatedCourt@4b0d79fc]" started-at="2024-07-04T11:43:27 IST" name="LoginDesignatedCourt" finished-at="2024-07-04T11:45:01 IST" duration-ms="94428" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginDesignatedCourt -->
-      </class> <!-- BudsLogin.Login_DesignatedCourt -->
-    </test> <!-- TestRunner3 -->
-    <test started-at="2024-07-04T11:43:27 IST" name="TestRunner4" finished-at="2024-07-04T11:45:03 IST" duration-ms="96438">
-      <class name="BudsLogin.Login_Regulator">
-        <test-method signature="loginRegulator()[pri:0, instance:BudsLogin.Login_Regulator@4efac082]" started-at="2024-07-04T11:43:27 IST" name="loginRegulator" finished-at="2024-07-04T11:45:03 IST" duration-ms="96377" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginRegulator -->
-      </class> <!-- BudsLogin.Login_Regulator -->
-    </test> <!-- TestRunner4 -->
-    <test started-at="2024-07-04T11:43:27 IST" name="TestRunner2" finished-at="2024-07-04T11:45:07 IST" duration-ms="100524">
+    <test started-at="2024-07-04T14:26:52 IST" name="Default test" finished-at="2024-07-04T14:27:30 IST" duration-ms="38689">
       <class name="BudsLogin.Login_Deposit_Taker">
-        <test-method signature="loginApplication()[pri:0, instance:BudsLogin.Login_Deposit_Taker@4b8ee4de]" started-at="2024-07-04T11:43:27 IST" name="loginApplication" finished-at="2024-07-04T11:45:07 IST" duration-ms="100465" status="PASS">
+        <test-method signature="loginApplication()[pri:0, instance:BudsLogin.Login_Deposit_Taker@53fdffa1]" started-at="2024-07-04T14:26:52 IST" name="loginApplication" finished-at="2024-07-04T14:27:30 IST" duration-ms="38657" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApplication -->
       </class> <!-- BudsLogin.Login_Deposit_Taker -->
-    </test> <!-- TestRunner2 -->
-    <test started-at="2024-07-04T11:43:27 IST" name="TestRunner1" finished-at="2024-07-04T11:45:09 IST" duration-ms="102097">
-      <class name="BudsLogin.Login_Competent_Authority">
-        <test-method signature="loginCompetentAuthority()[pri:0, instance:BudsLogin.Login_Competent_Authority@53fdffa1]" started-at="2024-07-04T11:43:27 IST" name="loginCompetentAuthority" finished-at="2024-07-04T11:45:09 IST" duration-ms="102036" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginCompetentAuthority -->
-      </class> <!-- BudsLogin.Login_Competent_Authority -->
-    </test> <!-- TestRunner1 -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
