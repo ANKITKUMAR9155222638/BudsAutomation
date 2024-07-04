@@ -1,0 +1,104 @@
+package BudsRegistration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class RegistrationDesignatedCourt {
+
+	public static void main(String[] args) throws Throwable {
+		// TODO Auto-generated method stub
+        WebDriver driver = new ChromeDriver();
+       driver.manage().window().maximize();
+	
+        driver.get("http://dev.niyamitnivesh.in/");
+        Thread.sleep(4000);   
+
+       
+        driver.findElement(By.xpath("//div[contains(@class,'leading-normal')][normalize-space()='Register']")).click();
+        Thread.sleep(4000);   
+
+        driver.findElement(By.xpath("//label[normalize-space()='Designated Court']")).click();
+        Thread.sleep(4000);   
+        driver.findElement(By.xpath("//button[@type='submit']")).click();
+        Thread.sleep(4000);   
+	
+        driver.findElement(By.cssSelector("body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > form:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > button:nth-child(1)")).click();
+        Thread.sleep(1000);   
+        driver.findElement(By.xpath("//a[normalize-space()='Gujarat High Court']")).click();
+        Thread.sleep(1000); 
+        
+       // driver.findElement(By.xpath("//input[@id='Pin Code']")).sendKeys("833219");
+        Thread.sleep(4000); 
+     driver.findElement(By.xpath("//button[normalize-space()='Save & Continue']")).click();
+	
+	
+	
+	
+	
+     
+
+     
+      
+
+     
+     
+     
+     
+    
+     Thread.sleep(2000);
+     
+     driver.findElement(By.xpath("//img[@alt='Upload']")).click();
+     Thread.sleep(4000);
+     WebElement fileInput = driver.findElement(By.xpath("//input[@type='file']"));
+     String filePath = "/Users/ankitkumar/eclipse-workspace/BudsApplication/pdffile/Dummy PDF download - dummy-pdf_2.pdf";
+     fileInput.sendKeys(filePath);
+     Thread.sleep(3000);
+     
+     driver.findElement(By.xpath("//button[normalize-space()='Save & Continue']")).click();
+	  
+ 	Thread.sleep(3000);
+ 	
+ 	driver.findElement(By.xpath("//input[@id='Nodal Officer First Name']")).sendKeys("Rajiv");
+ 	driver.findElement(By.xpath("//input[@id='Nodal Officer Middle Name']")).sendKeys("k");
+ 	
+ 	driver.findElement(By.xpath("//input[@id='Nodal Officer Last Name']")).sendKeys("m");
+ 	driver.findElement(By.xpath("//input[@id='Nodal Officer Email']")).sendKeys("testdarkscenario@gmail.com");
+ 	driver.findElement(By.xpath("//input[@id='Nodal Officer Mobile Number']")).sendKeys("9155222638");
+ 	Thread.sleep(1000);
+ 	
+ 	
+ 	WebElement fileInput1 = driver.findElement(By.xpath("//input[@type='file']"));
+     String projectDirectory = System.getProperty("user.dir");
+     String filePath1 = projectDirectory + "/DSCDocumnets/cert_Protean-GP_Bangalore.crt";
+     fileInput1.sendKeys(filePath1);
+     
+     Thread.sleep(2000);
+ 	driver.findElement(By.xpath("//button[normalize-space()='Save & Review']")).click();
+ 	
+ 	Thread.sleep(4000);
+ 	driver.findElement(By.xpath("//div[@class='p-3']//div[2]//input[1]")).sendKeys("0");
+ 	driver.findElement(By.xpath("//div[@class='p-3']//div[2]//input[2]")).sendKeys("0");
+ 	driver.findElement(By.xpath("//div[@class='p-3']//div[2]//input[3]")).sendKeys("0");
+ 	driver.findElement(By.xpath("//div[@class='p-3']//div[2]//input[4]")).sendKeys("0");
+ 	driver.findElement(By.xpath("//div[@class='p-3']//div[2]//input[5]")).sendKeys("0");
+ 	driver.findElement(By.xpath("//div[@class='p-3']//div[2]//input[6]")).sendKeys("0");
+
+	
+ 	  
+	
+	
+	
+ 	Thread.sleep(4000);
+     driver.close();
+    System.out.println("Test case passed:");
+    System.out.println("Registratrion OTP generated for DesignatedCourt");
+    System.out.println(" Please check email ");
+	
+	
+	
+	}
+	
+
+}
