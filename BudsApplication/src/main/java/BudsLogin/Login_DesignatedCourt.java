@@ -22,7 +22,9 @@ public class Login_DesignatedCourt {
 	//	Thread.sleep(1000);
 		driver.findElement(By.xpath("//button[normalize-space()='Deposit Taker']//*[name()='svg']")).click();
 
-	//	Thread.sleep(1000);
+	
+		
+		//	Thread.sleep(1000);
 		driver.findElement(By.xpath("//a[normalize-space()='Designated Court']")).click();
 	//	Thread.sleep(1000);
 		driver.findElement(By.xpath("//input[@placeholder='Email id / Mobile no.']"))
